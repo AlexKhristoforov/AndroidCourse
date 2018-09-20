@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CourseProject</string>
+
+    <string name="ios">IOS</string>
+    <string name="android">Android</string>
+    <string name="forButton">Switch</string>
+</resources>

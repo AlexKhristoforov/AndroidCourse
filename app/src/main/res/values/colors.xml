@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="androidText">#3f3b3c</color>
+    <color name="androidBack">#94c248</color>
+
+    <color name="iosBack">#a09e9f</color>
+    <color name="iosText">#ffffff</color>
+
+    <color name="mainBack">#ffffff</color>
+</resources>
