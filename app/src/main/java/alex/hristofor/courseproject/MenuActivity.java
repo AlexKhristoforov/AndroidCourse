@@ -9,6 +9,7 @@ import android.widget.Button;
 
 import alex.hristofor.courseproject.homework1.Homework1Activity;
 import alex.hristofor.courseproject.homework2.Homework2Activity;
+import alex.hristofor.courseproject.homework3.Homework3Activity;
 
 public class MenuActivity extends Activity{
     @Override
@@ -18,6 +19,7 @@ public class MenuActivity extends Activity{
 
         Button buttonLesson1 = findViewById(R.id.buttonLesson1);
         Button buttonLesson2 = findViewById(R.id.buttonLesson2);
+        Button buttonLesson3 = findViewById(R.id.buttonLesson3);
 
         buttonLesson1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -31,6 +33,14 @@ public class MenuActivity extends Activity{
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MenuActivity.this, Homework2Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        buttonLesson3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MenuActivity.this, Homework3Activity.class);
                 startActivity(intent);
             }
         });

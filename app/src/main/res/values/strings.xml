@@ -7,5 +7,10 @@
 
     <string name="lesson1">Lesson 1</string>
     <string name="lesson2">Lesson 2</string>
+    <string name="lesson3">Lesson 3</string>
+
+    <string name="error">empty string</string>
+
+    <string name="example_upload_image">https://www.imgonline.com.ua/examples/bee-on-daisy.jpg</string>
 
 </resources>
