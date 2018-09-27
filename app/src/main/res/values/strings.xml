@@ -4,4 +4,8 @@
     <string name="ios">IOS</string>
     <string name="android">Android</string>
     <string name="forButton">Switch</string>
+
+    <string name="lesson1">Lesson 1</string>
+    <string name="lesson2">Lesson 2</string>
+
 </resources>

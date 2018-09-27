@@ -1,5 +1,6 @@
-package alex.hristofor.courseproject;
+package alex.hristofor.courseproject.homework1;
 
+import android.app.Activity;
 import android.graphics.drawable.Drawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -7,7 +8,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+import alex.hristofor.courseproject.R;
+
+public class Homework1Activity extends Activity implements View.OnClickListener {
 
     private Button btn;
     private TextView strFirst;
@@ -17,13 +20,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_homework1);
 
-        btn = (Button) findViewById(R.id.button2);
-        strFirst = (TextView) findViewById(R.id.textView);
-        strSecond = (TextView) findViewById(R.id.textView2);
+        btn =  findViewById(R.id.button2);
+        strFirst =  findViewById(R.id.textView);
+        strSecond = findViewById(R.id.textView2);
 
         strFirst.setOnClickListener(this);
+
         strSecond.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

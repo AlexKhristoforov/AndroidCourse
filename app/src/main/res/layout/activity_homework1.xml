@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:orientation="vertical"
-android:background="@color/mainBack"
-tools:context=".MainActivity">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBack"
+    android:orientation="vertical"
+    tools:context=".homework1.Homework1Activity">
 
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:textSize="80dp"
         android:onClick="viewBtn"
-        android:text="@string/forButton" />
+        android:text="@string/forButton"
+        android:textSize="80dp" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:textAllCaps="true"
-        android:gravity="center"
-        android:textSize="80dp"
         android:background="@color/iosBack"
+        android:gravity="center"
+        android:text="@string/ios"
+        android:textAllCaps="true"
         android:textColor="@color/iosText"
-        android:text="@string/ios" />
+        android:textSize="80dp" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:textAllCaps="true"
-        android:gravity="center"
-        android:textSize="80dp"
-        android:textColor="@color/androidText"
         android:background="@color/androidBack"
-        android:text="@string/android" />
+        android:gravity="center"
+        android:text="@string/android"
+        android:textAllCaps="true"
+        android:textColor="@color/androidText"
+        android:textSize="80dp" />
 
 </LinearLayout>
