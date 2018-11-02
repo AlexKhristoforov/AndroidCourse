@@ -21,5 +21,9 @@
     <color name="yellow">#FCD214</color>
     <color name="blue">#043A94</color>
 
+    <color name="gray">#32292F</color>
+    <color name="bluew">#99E1D9</color>
+    <color name="whiteb">#F0F7F4</color>
+
 
 </resources>

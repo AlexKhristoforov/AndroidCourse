@@ -14,22 +14,50 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical" >
+          <TableLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+              <TableRow>
+                  <Button
+                      android:id="@+id/buttonLesson1"
+                      android:layout_width="100dp"
+                      android:layout_height="100dp"
+                      android:text="@string/lesson1"/>
+                  <Button
+                      android:id="@+id/buttonLesson2"
+                      android:layout_marginLeft="30dp"
+                      android:layout_width="100dp"
+                      android:layout_height="100dp"
+                      android:text="@string/lesson2"/>
+                  <Button
+                      android:id="@+id/buttonLesson3"
+                      android:layout_marginLeft="30dp"
+                      android:layout_width="100dp"
+                      android:layout_height="100dp"
+                      android:text="@string/lesson3"/>
+              </TableRow>
+              <TableRow
+                  android:layout_marginTop="20dp">
+                  <Button
+                      android:id="@+id/buttonLesson4"
+                      android:layout_width="100dp"
+                      android:layout_height="100dp"
+                      android:text="@string/lesson4"/>
+                  <Button
+                      android:id="@+id/buttonLesson5"
+                      android:layout_marginLeft="30dp"
+                      android:layout_width="100dp"
+                      android:layout_height="100dp"
+                      android:text="Lesson 5"/>
+                  <Button
+                      android:id="@+id/buttonLesson6"
+                      android:layout_marginLeft="30dp"
+                      android:layout_width="100dp"
+                      android:layout_height="100dp"
+                      android:text="Lesson 6"/>
+              </TableRow>
+          </TableLayout>
 
-            <Button
-                android:id="@+id/buttonLesson1"
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:text="@string/lesson1"/>
-            <Button
-                android:id="@+id/buttonLesson2"
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:text="@string/lesson2"/>
-            <Button
-                android:id="@+id/buttonLesson3"
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:text="@string/lesson3"/>
 
         </LinearLayout>
     </ScrollView>

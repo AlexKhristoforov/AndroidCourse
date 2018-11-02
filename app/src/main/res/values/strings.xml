@@ -8,9 +8,10 @@
     <string name="lesson1">Lesson 1</string>
     <string name="lesson2">Lesson 2</string>
     <string name="lesson3">Lesson 3</string>
+    <string name="lesson4">Lesson 4</string>
 
     <string name="error">empty string</string>
 
-    <string name="example_upload_image">https://www.imgonline.com.ua/examples/bee-on-daisy.jpg</string>
+    <string name="example_upload_image">https://www.iphones.ru/wp-content/uploads/2018/06/CEDC8791-8744-4F3C-B900-184CA975A56D-1240x720.jpeg</string>
 
 </resources>

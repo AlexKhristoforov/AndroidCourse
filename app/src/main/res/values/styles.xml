@@ -13,4 +13,17 @@
 
     </style>
 
+    <style name="text_title">
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="text_simple">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">20dp</item>
+    </style>
 </resources>
